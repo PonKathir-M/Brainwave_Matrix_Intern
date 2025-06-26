@@ -7,7 +7,7 @@ const amount = document.getElementById('amount');
 const addBtn = document.getElementById('addTransaction');
 const toggleMode = document.getElementById('toggleMode');
 
-let isIncome = true; // default mode
+let isIncome = true; 
 let transactions = [];
 
 toggleMode.addEventListener('click', () => {
